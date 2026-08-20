@@ -6,9 +6,10 @@ int sum(int a , int b){
 }                       
  void swap(int a , int b){  // temp a  b
     int temp = a;           //   4  4  5
-    a = b ;                 //   4  5  5 
+    a = b ;                 //   4  5  5                 
     a = b ;                 //   4  5  4
-    b =  temp;
+    b = temp;          
+   
 }                       
 
 //  Call by refrence using pointers
